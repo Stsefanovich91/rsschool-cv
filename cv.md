@@ -3,7 +3,7 @@
 * ***Location:*** Minsk, Belarus
 * ***Phone:*** +375298301710
 * ***Email:*** toschmurodov@mail.ru
-* ***GitHub:*** Stsefanovich91
+* ***GitHub:*** [Stsefanovich91](https://github.com/Stsefanovich91)
 * ***Discord:*** RamanStef(@Stsefanovich91)
 # About Me
 All my life, before creating this resume, I worked as an ordinary worker in various enterprises, I always liked to learn and replenish my knowledge base.
