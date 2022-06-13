@@ -1,0 +1,119 @@
+@font-face {
+    font-family: Cinzel;
+    src: url(./assets/fonts/Cinzel-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Josefin-Sans;
+    src: url(./assets/fonts/JosefinSans-Italic-VariableFont_wght.ttf);
+}
+
+body {
+    font-family: Josefin-Sans, sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    color: black;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section-title {
+    font-family: Cinzel, serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    line-height: 36px;
+    color: #900000;
+}
+
+.link {
+    text-decoration: none;
+    color: #5000ff;
+    transition: color 0.5s;
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav-link {
+    padding: 0 25px;
+    line-height: 45px;
+    color: #63685c;
+    font-size: 18px;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: 50%;
+}
+
+.image {
+    width: 300px;
+    height: 300px;
+    border-radius: 33%;
+    border-style: groove;
+    display: block;
+    margin: 0 auto;
+}
+
+.section-profile {
+    font-family: Cinzel, serif;
+    font-size: 32px;
+    text-transform: uppercase;
+    line-height: 40px;
+    color: #900000;
+    align-items: center;
+    display: block;
+    margin: auto;
+}
+
+body {
+    background-image: url(./assets/img/background1.jpg);
+    background-attachment: scroll;
+    background-size: 100%;
+}
+
+footer {
+    background: #a77777;
+    padding: 30px;
+}
+
+.footer-link {
+    padding: 0 25px;
+}
+
+.logo-rss {
+    width: 150px;
+    height: 33px;
+    float: right;
+}
